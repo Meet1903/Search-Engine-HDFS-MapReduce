@@ -51,7 +51,7 @@ This project is aimed at building a Search Engine capabilities using HDFS & MapR
 ### Commands to run the code.
 
 ```
-mapred streaming -D mapred.min.split.size=10000000000 -input Documents/*.txt -output output-1 -mapper "python mapper-1.py" -reducer "python reducer-1.py" -file mapper-1.py -file reducer-midterm-q1-1.py
+mapred streaming -D mapred.min.split.size=10000000000 -input Documents/*.txt -output output-1 -mapper "python mapper-1.py" -reducer "python reducer-1.py" -file mapper-1.py -file reducer-1.py
 ```
 
 ```
